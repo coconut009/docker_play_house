@@ -1,4 +1,3 @@
-
 __<h3>System</h3>__
 + CPU: AMD Ryzen 9 5900x
 + RAM: 64GB
@@ -22,7 +21,7 @@ __<h3>Setup Docker Environment</h3>__
 
    `mkdir -p $DOCKER_CONFIG/cli-plugins`
 
-   ***Check the docker compose version from the [docker github page](URL "https://github.com/docker/compose") 
+   ***Check the docker compose version from the <a herf= "https://github.com/docker/compose">docker github page</a>
    Choose the compose version as you preferred*** 
 
    `curl -SL https://github.com/docker/compose/releases/download/v2.3.3/docker-compose-linux-x86_64 -o $DOCKER_CONFIG/cli-plugins/docker-compose`
@@ -46,8 +45,8 @@ multiple containers can of the same image
 
 __<h3>Start Building the </h3>__
 * Docker container with desktop environment<br>
-This is a sample [docker container: ubuntu20:04 xrdp xfce-desktop](URL "https://github.com/coconut009/docker_play_house/blob/main/xrdp_base_Dockerfile")
-  * To build the container for more details check [docker document reference page](URL "https://docs.docker.com/engine/reference/commandline/image_build/")
+This is a sample <a herf = "https://github.com/coconut009/docker_play_house/blob/main/xrdp_base_Dockerfile"> docker container: ubuntu20:04 xrdp xfce-desktop</a>
+  * To build the container for more details check <a href="https://docs.docker.com/engine/reference/commandline/image_build/"> docker document reference page</a>
     * `docker build . -t <image_name>`  
   * Run the container 
     * `docker run -d -p 3389 <docker_image_name>`
