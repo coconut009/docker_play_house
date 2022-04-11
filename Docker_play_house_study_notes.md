@@ -45,7 +45,7 @@ multiple containers can of the same image
 
 __<h3>Start Building the </h3>__
 * Docker container with desktop environment<br>
-This is a sample <a herf = "https://github.com/coconut009/docker_play_house/blob/main/xrdp_base_Dockerfile"> docker container: ubuntu20:04 xrdp xfce-desktop</a>
+This is a sample <a href= "https://github.com/coconut009/docker_play_house/blob/main/xrdp_base_Dockerfile"> docker container: ubuntu20:04 xrdp xfce-desktop</a>
   * To build the container for more details check <a href="https://docs.docker.com/engine/reference/commandline/image_build/"> docker document reference page</a>
     * `docker build . -t <image_name>`  
   * Run the container 
